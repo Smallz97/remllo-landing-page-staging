@@ -3,7 +3,7 @@ import { RemlloLogo, HamburgerIcon } from "@/app/utilities/library/Icons"
 export default function Navbar() {
     return (
         <nav className="px-[1.63rem] py-[1.35rem] md:px-[4.63rem] items-center justify-between flex border-b border-neutral-200">
-            <div className="w-30 lg:w-32 h-6 flex justify-center items-center">
+            <div className="w-30 lg:w-32 h-6">
                 <RemlloLogo />
             </div>
             <div className="flex w-4 h-6 items-center lg:hidden"><HamburgerIcon /></div>
