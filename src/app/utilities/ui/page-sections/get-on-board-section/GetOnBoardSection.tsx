@@ -42,7 +42,7 @@ export default function GetOnBoardSection() {
                     </div>
                     <button
                         type="submit"
-                        className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-md shadow-[0px_2px_4px_-2px_rgba(0,0,0,0.10)] shadow-md py-[0.85rem] py-4 flex justify-center relative z-10"
+                        className="bg-blue-500 rounded-md py-[0.85rem] py-4 relative z-10"
                     >
                         Submit
                     </button>
