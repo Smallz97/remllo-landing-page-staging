@@ -63,21 +63,21 @@ const workflowSteps = [
 const expertInsights = [
   {
     title: "Talking to the experts",
-    outlineColor: "outline-blue-200",
+    outlineColor: "blue-200",
     gradient: "from-blue-500/20 to-blue-500/5",
     description:
       "Ongoing conversations with compliance professionals, lawyers, and operators shaping our understanding.",
   },
   {
     title: "Validated across industries",
-    outlineColor: "outline-emerald-100",
+    outlineColor: "emerald-100",
     gradient: "from-teal-400/20 to-teal-400/5",
     description:
       "Our approach has been tested and refined through collaboration with fintech companies and digital operations teams.",
   },
   {
     title: "MVP in progress",
-    outlineColor: "outline-lime-100",
+    outlineColor: "lime-100",
     gradient: "from-lime-400/20 to-lime-400/5",
     description:
       "Join us early and shape the product as we build our minimum viable product with early partners.",
