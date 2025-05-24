@@ -6,7 +6,7 @@ export default function Navbar() {
             <div className="w-30 lg:w-32 h-6">
                 <RemlloLogo />
             </div>
-            <div className="flex w-4 h-6 items-center lg:hidden"><HamburgerIcon /></div>
+            <div className="w-4 h-6 lg:hidden"><HamburgerIcon /></div>
             <div className="hidden lg:flex items-center gap-[1.42rem]">
                 <div className="text-gray-600 text-base font-medium leading-tight">How It Works</div>
                 <div className="text-gray-600 text-base font-medium leading-tight">Why It Matters</div>
