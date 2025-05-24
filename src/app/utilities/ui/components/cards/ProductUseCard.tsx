@@ -15,7 +15,7 @@ export default function ProductUseCard({ heading, text, className, illustration:
             />
 
             <div className="flex flex-col gap-4 text-white relative z-10">
-                <div className="text-xl font-semibold leading-snug lg:leading-7 max-h-[4.62rem]">{heading}</div>
+                <div className="text-xl font-semibold leading-snug lg:leading-7">{heading}</div>
                 <div className="text-base lg:text-lg font-normal md:leading-normal">{text}</div>
             </div>
             <div className="w-40 lg:w-56 h-40 lg:h-52 absolute z-0 bottom-4 lg:bottom-[1.56rem] right-3 lg:right-[2.56rem]">
