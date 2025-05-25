@@ -22,9 +22,8 @@ export default function WhatWeAreDoingSection() {
                 {expertInsights.map((card, index) => (
                     <ExpertInsightCard
                         key={index}
+                        index={index}
                         title={card.title}
-                        gradient={card.gradient}
-                        borderColor={card.borderColor}
                         description={card.description}
                     />
                 ))}

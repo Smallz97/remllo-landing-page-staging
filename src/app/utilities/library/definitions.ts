@@ -23,8 +23,7 @@ export interface ComplianceChallengesInfoCardProps {
 }
 
 export interface ExpertInsightCardProps {
+    index: number;
   title: string;
   description: string;
-  gradient: string;
-  borderColor: string;
 }
