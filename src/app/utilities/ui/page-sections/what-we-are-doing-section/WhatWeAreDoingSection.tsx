@@ -24,8 +24,8 @@ export default function WhatWeAreDoingSection() {
                         key={index}
                         title={card.title}
                         gradient={card.gradient}
+                        borderColor={card.borderColor}
                         description={card.description}
-                        outlineColor={card.outlineColor}
                     />
                 ))}
             </div>

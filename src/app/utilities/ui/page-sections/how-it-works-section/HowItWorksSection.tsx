@@ -12,7 +12,7 @@ export default function HowItWorksSection() {
                 >
                     <div
                         id="section-title"
-                        className="text-neutral-950 text-sm font-medium leading-tight px-5 py-1 rounded-full shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] outline outline-1 outline-offset-[-1px] outline-slate-200"
+                        className="text-neutral-950 text-sm font-medium leading-tight px-5 py-1 rounded-full shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] border border-slate-200"
                     >
                         what is remllo?
                     </div>
@@ -39,7 +39,7 @@ export default function HowItWorksSection() {
                 </div>
             </div>
             <div
-                id="compliance-challenges-in-Nigeria"
+                id="compliance-challenges-in-Africa"
                 className="rounded-[9.67px] lg:rounded-2xl shadow-[0px_0px_3.627511739730835px_0.6045852899551392px_rgba(238,238,238,1.00)] bg-slate-900 flex flex-col justify-center px-6 md:px-[2.63rem] pt-10 pb-[1.22rem] md:pb-8 gap-8 md:gap-[2.66rem] flex flex-col items-center relative"
             >
                 <div

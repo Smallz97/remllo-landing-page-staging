@@ -26,5 +26,5 @@ export interface ExpertInsightCardProps {
   title: string;
   description: string;
   gradient: string;
-  outlineColor: string;
+  borderColor: string;
 }
