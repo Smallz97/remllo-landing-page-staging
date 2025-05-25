@@ -3,7 +3,7 @@ import ProductUseCard from "@/app/utilities/ui/components/cards/ProductUseCard";
 
 export default function ProductUseSection() {
     return (
-        <div id="buffer-section" className="flex flex-col gap-[3.38rem] md:gap-[2.12rem] md:flex-row">
+        <div id="why-it-matters" className="flex flex-col gap-[3.38rem] md:gap-[2.12rem] md:flex-row scroll-mt-24">
             {productUses.map(({ className, illustration, heading, text }, index) => (
                 <ProductUseCard
                     key={index}

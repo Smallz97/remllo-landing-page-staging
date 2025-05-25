@@ -1,10 +1,10 @@
-import { complianceChallenges, workflowSteps } from "@/app/utilities/library/data";
 import WorkflowCard from "@/app/utilities/ui/components/cards/WorkflowCards";
+import { complianceChallenges, workflowSteps } from "@/app/utilities/library/data";
 import ComplianceChallengesInfoCard from "@/app/utilities/ui/components/cards/ComplianceChallengesInfoCard";
 
 export default function HowItWorksSection() {
     return (
-        <section id="how-it-works-section" className="flex flex-col gap-[3.38rem]">
+        <section id="how-it-works" className="flex flex-col gap-[3.38rem] scroll-mt-24">
             <div id="title-workflow-wrapper" className="flex flex-col gap-8">
                 <div
                     id="section-title-and-description"

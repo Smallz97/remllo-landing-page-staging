@@ -3,7 +3,7 @@ import ExpertInsightCard from "@/app/utilities/ui/components/cards/ExpertInsight
 
 export default function WhatWeAreDoingSection() {
     return (
-        <section id="what-we-are-doing-section" className="flex flex-col gap-[1.93rem] items-center">
+        <section id="what-we-are-doing" className="flex flex-col gap-[1.93rem] items-center scroll-mt-24">
             <div id="section-title-and-description" className="flex flex-col gap-4 items-center text-center">
                 <div
                     id="section-title"

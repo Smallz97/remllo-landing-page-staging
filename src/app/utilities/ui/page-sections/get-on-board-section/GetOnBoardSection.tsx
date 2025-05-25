@@ -1,8 +1,8 @@
 export default function GetOnBoardSection() {
     return (
         <section
-            id="get-on-board-section"
-            className="rounded-[9.67px] lg:rounded-2xl shadow-[0px_0px_3.627511739730835px_0.6045852899551392px_rgba(238,238,238,1.00)] bg-slate-950 pt-[2.46rem] lg:pt-24 pb-[4.19rem] lg:pt-24 px-[1.13rem] flex flex-col gap-8 lg:gap-10 relative"
+            id="get-on-board"
+            className="rounded-[9.67px] lg:rounded-2xl shadow-[0px_0px_3.627511739730835px_0.6045852899551392px_rgba(238,238,238,1.00)] bg-slate-950 pt-[2.46rem] lg:pt-24 pb-[4.19rem] lg:pt-24 px-[1.13rem] flex flex-col gap-8 lg:gap-10 relative scroll-mt-24"
         >
             <div
                 className="absolute inset-0 z-0 opacity-30 pointer-events-none"

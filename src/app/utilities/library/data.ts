@@ -1,5 +1,11 @@
 import { StackedBoxes, AfricanMap, FileIcon, UploadIcon, CheckIcon } from "@/app/utilities/library/Icons";
 
+const navLinks = [
+  { label: "Why It Matters", href: "#why-it-matters" },
+  { label: "How It Works", href: "#how-it-works" },
+  { label: "Early Validation", href: "#what-we-are-doing" },
+];
+
 const productUses = [
   {
     className: "bg-sky-950",
@@ -84,4 +90,4 @@ const expertInsights = [
   },
 ];
 
-export { productUses, workflowSteps, complianceChallenges, expertInsights };
+export { navLinks, productUses, workflowSteps, complianceChallenges, expertInsights };

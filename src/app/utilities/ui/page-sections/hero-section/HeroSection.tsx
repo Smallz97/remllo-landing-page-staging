@@ -5,7 +5,7 @@ import DashboardDesktop from "../../../../../../public/Dashboard-dekstop.svg"
 
 export default function HeroSection() {
     return (
-        <section id="hero-section" className="flex flex-col gap-[3.38rem] text-center items-center">
+        <section id="hero" className="flex flex-col gap-[3.38rem] text-center items-center scroll-mt-48">
             <div id="page-title" className="flex flex-col gap-6 md:gap-5 items-center">
                 <div
                     id="page-heading"
@@ -21,7 +21,7 @@ export default function HeroSection() {
                     Remllo turns complex regulatory requirements into clean, trackable tasks using AI, structure, and automation to keep your business compliant and audit-ready.
                 </div>
                 <Button
-                    href={`#get-on-board-section`}
+                    href={`#get-on-board`}
                     className={`text-xs md:text-base font-bold md:font-medium tracking-wider bg-black text-white rounded-lg md:leading-normal`}
                 >
                     Get early access
