@@ -22,7 +22,7 @@ export default function HeroSection() {
                 </div>
                 <Button
                     href={`#get-on-board`}
-                    className={`text-xs md:text-base font-bold md:font-medium tracking-wider bg-black text-white rounded-lg md:leading-normal`}
+                    className={`text-xs md:text-base lg:text-xl font-bold md:font-medium tracking-wider bg-black text-white rounded-lg md:leading-normal`}
                 >
                     Get early access
                 </Button>

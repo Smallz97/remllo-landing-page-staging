@@ -12,6 +12,29 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Remllo",
   description: "rethinking compliance for Africa's digital future",
+  openGraph: {
+    title: "Remllo",
+    description: "rethinking compliance for Africa's digital future",
+    url: "https://www.remllo.com",
+    siteName: "Remllo",
+    images: [
+      {
+        url: "https://www.remllo.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Remllo - Rethinking compliance",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Remllo",
+    description: "rethinking compliance for Africa's digital future",
+    site: "@remllo",
+    images: ["https://www.remllo.com/og-image.jpg"],
+  },
 };
 
 export default function RootLayout({

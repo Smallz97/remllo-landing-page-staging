@@ -42,9 +42,9 @@ export default function GetOnBoardSection() {
                     </div>
                     <button
                         type="submit"
-                        className="bg-blue-500 rounded-md py-[0.85rem] py-4 relative z-10"
+                        className="bg-blue-500 text-base lg:text-xl rounded-md py-[0.85rem] py-4 relative z-10 text-white"
                     >
-                        Submit
+                        Get early access
                     </button>
                 </form>
             </div>

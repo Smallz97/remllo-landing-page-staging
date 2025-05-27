@@ -6,7 +6,7 @@ import GetOnBoardSection from "@/app/utilities/ui/page-sections/get-on-board-sec
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-[3.38rem] px-[1.16rem] md:px-[2.63rem] lg:px-[7.63rem] pt-[5.62rem] lg:pt-[10.13rem] pb-[3.38rem]">
+    <div className="flex flex-col gap-[3.38rem] px-[1.16rem] md:px-[2.63rem] lg:px-[7.63rem] xl:px-30 pt-[5.62rem] lg:pt-[10.13rem] xl-pt-[12rem] pb-[3.38rem]">
       <HeroSection />
       <ProductUseSection />
       <HowItWorksSection />
